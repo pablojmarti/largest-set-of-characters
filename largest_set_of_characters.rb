@@ -11,3 +11,7 @@ final_length = 50
 # this is the whole paragraph split up as a character array
 paragraph_as_characters = given_paragraph.split("")
 
+# this array will be used to store the final characters that will be taken out of the given_paragraph
+character_array = Array.new
+
+
