@@ -14,4 +14,11 @@ paragraph_as_characters = given_paragraph.split("")
 # this array will be used to store the final characters that will be taken out of the given_paragraph
 character_array = Array.new
 
-
+# loop through all characters of the paragraph
+# if the given paragraph length minus the character array length is greater than 
+# the final_length then add it to the character array
+paragraph_as_characters.each do |char|
+  if given_paragraph.length - character_array.length > final_length 
+    character_array.push(char)
+  end
+end
