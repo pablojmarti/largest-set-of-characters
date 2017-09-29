@@ -8,5 +8,6 @@ given_paragraph = "If you want to jumpstart the process of talking to us about t
 # base is 50 but it can be changed here to be any number as long as it is an integer
 final_length = 50
 
-
+# this is the whole paragraph split up as a character array
+paragraph_as_characters = given_paragraph.split("")
 
