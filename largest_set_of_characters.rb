@@ -22,3 +22,8 @@ paragraph_as_characters.each do |char|
     character_array.push(char)
   end
 end
+
+# output to stdout the final products of this simple script
+puts "Given Paragraph: #{given_paragraph} \n \n"
+puts "Largest set of characters: #{character_array}"
+puts "Given Paragraph - Largest set: #{given_paragraph.length - character_array.length}"
